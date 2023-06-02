@@ -1,0 +1,473 @@
+@font-face {
+    font-family: light;
+    src: url(./font/RightGrotesk-Regular\ \(1\).ttf);
+}
+@font-face {
+    font-family: high-light;
+    src: url(./font/RightGrotesk-CompactBlack.otf);
+}
+/* resets */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --primary-text-color:#FFE30A;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+/* utility classss */
+
+.flex{
+    display: flex;
+    align-items: center;
+}
+.containers{
+    max-width: 70%;
+    margin-inline: auto;
+}
+
+                  /* main-section */
+.main-section{
+   width: 100%;
+   height: 100%;
+   position: relative;
+   background-image: url(https://images.prismic.io/yubo/6118791b-2978-4f39-bc06-0d5d43cd6e93_LargeGraphics.webp?auto=compress,format&rect=0,0,1600,900&w=1680&h=945);
+   background-size: cover;
+   background-position: top;
+   padding-top: 1PX;
+}
+.main-section .top-nav{
+   width: 90%;
+   margin-inline: 5%;
+   position: absolute;
+   z-index: 9;
+   margin-top: 4%;
+   height: 8%;
+   justify-content: space-between;
+   position: fixed;
+}
+.main-section .top-nav i{
+    font-size: 25px;
+    color: white;
+}
+.main-section .top-nav .logos{
+    padding: 10px 20px;
+    background-color: black;
+    border-radius: 35px;
+}
+.main-section .top-nav img{
+    width: 10%;
+    position: relative;
+    z-index: 9;
+}
+.main-section .top-nav .logos span{
+    color: aliceblue;
+    height: 50%;
+    font-size: 28px;
+}
+.main-section .top-nav .logos img{
+    width: 22px;
+    margin-inline: 8px;
+}
+.main-section h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 10.5rem;
+    line-height: 135px;
+    font-family: high-light;
+    text-align: center;
+    color: var(--primary-text-color);
+}
+
+           /* page2 section */
+
+.page2{
+    width: 100%;
+    height: 120%;
+    position: relative;
+    background-color: #FFE30A;
+}
+.page2-section{
+    justify-content: center;
+ }
+ .page2-section h2{
+        font-size: 9rem;
+        font-family: high-light;
+        line-height: 140px;
+ }
+ .page2-section img{
+
+     margin-top: 8vh;
+     margin-right: 100px;
+ }
+ .store-img {
+     gap: 1.4vw;
+ }
+ .join-us-img{
+    position: absolute;
+    top: 25%;
+    left: 45%;
+    z-index: 10;
+ }
+ .hey-friens{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+    z-index: 10;
+ }
+ .that-lit{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    z-index: 10;
+ }
+ .bo{
+    width: 240px;
+    position: absolute;
+    right: 1.9%;
+    top: 56%;
+ }
+ .yubo{
+    width: 12%;
+    position: absolute;
+    right: 3%;
+    top: 55%;
+    z-index: 10;
+ }
+           /* page3 section */
+
+
+.page3{
+    width: 100%;
+    height: 280%;
+    background-color: #FFE30A;
+    background-image: url(https://www.yubo.live/assets/img/black-cloud-homepage.svg);
+    background-size: cover;
+    padding-top: 1px;
+    /* background-position: center; */
+}
+.page3-section{
+      margin-top: 30vh;
+      justify-content: center ;
+}
+.page3-section h2{
+    color: #FFE30A;
+    font-family: high-light;
+    font-size: 9rem;
+    line-height: 140px;
+}
+.page3-section #right-child{
+    width: 60%;
+}
+.page3-section #right-child p{
+    color: white;
+    font-family: light;
+    font-size: 2rem;
+    margin-bottom: 25px;
+}
+.secondary-button{
+    font-family: "light";
+    font-size: 1.3rem;
+    font-weight: 800;
+    border-radius: 30px;
+    padding: 15px 30px;
+    background-color: #FFE30A;
+    border: 2px solid #FFE30A;
+    transition: all ease 0.4s;
+}
+.secondary-button:hover{
+     cursor: pointer;
+    background-color: transparent;
+    border: 2px solid #FFE30A;
+    color: #FFE30A;
+}
+.page3-1st-child-section{
+    height: 50%;
+    margin-top: 50px;
+}
+.page3-1st-child-section .left-child-of-page3{
+    width: 50%;
+    height: 80%;
+    margin-top: 100px;
+    /* background-color: aliceblue; */
+    align-items: flex-start;
+   flex-direction: column;
+   justify-content: space-between;
+}
+.page3-1st-child-section .left-child-of-page3 p{
+    font-family: light;
+    font-weight: 700;
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 25px;
+    line-height: 35px;
+
+}
+.girl-photo{
+    width: 50%;
+    border-radius: 55px;
+}
+.page3-2nd-child-section{
+    margin-top: 12vh;
+    /* background-color: aliceblue; */
+    justify-content: space-between;
+}
+.page3-2nd-child-section h2{
+    color: #FFE30A;
+    font-size: 9rem;
+    font-family: high-light;
+}
+.page3-2nd-child-section h2 span img{
+    width: 90px;
+}
+             /* page4 section */
+
+.page4{
+    width: 100%;
+    height: 200%;
+    position: relative;
+    background-color: #151400;
+    background-image: url(https://www.yubo.live/assets/img/purple-cloud.svg);
+
+}
+.page4-section{
+    position: relative;
+    /* background-color: aqua; */
+    height: 75%;
+}
+#card{
+    width: 400px;
+    height: 500px;
+    border-radius: 50px;
+    position: absolute;
+    top: 30vh;
+    cursor: pointer;
+    /* background-color: red; */
+}
+#card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    position: absolute;
+    object-fit: cover;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    border-radius: 50px;
+    background-color: rgba(0, 0, 0, 0.537);
+}
+.overlay h2{
+    position: absolute;
+   bottom:12%;
+   font-family: high-light;
+   font-weight: 900;
+   color: aliceblue;
+   font-size: 3.2rem;
+   margin-inline: 7%;
+}
+.overlay .timer{
+    position: absolute;
+    bottom: 5%;
+    left: 8%;
+    flex-direction: row;
+}
+.overlay .timer p{
+    color: rgb(237, 237, 238);
+    font-size: 1.1rem;
+    font-family: light;
+    font-weight: 600;
+}
+.overlay .simple-text{
+    position: absolute;
+    top: 5%;
+    font-family: high-light;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    right: 10%;
+   padding:7px 14px;
+   background-color: #996BFF;
+   border-radius: 7px;
+    color: black;
+}
+#card2{
+    width: 550px;
+    height: 540px;
+    border-radius: 50px;
+    position: absolute;
+    right: 0;
+    top: 1%;
+}
+#card2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50px;
+}
+.simple-text2{
+    position: absolute;
+    top: 5%;
+    font-family: high-light;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    left: 10%;
+   padding:7px 14px;
+   background-color: #FF5252;
+   border-radius: 7px;
+    color: black;
+}
+#card3{
+    width: 420px;
+    height: 460px;
+    position: absolute;
+    right: 5%;
+    bottom: 6%;
+    border-radius: 50px;
+    background-color: aquamarine;
+}
+#card3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.overlay .simple-text3{
+    position: absolute;
+    top: 5%;
+    font-family: high-light;
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    right: 10%;
+   padding:7px 14px;
+   background-color: #FFE30A;
+   border-radius: 7px;
+    color: black;
+}
+.big-text-feature img{
+    position: absolute;
+    /* background-color: red; */
+    bottom: -7%;
+    left: 28%;
+    z-index: 1;
+}
+ /* footer section */
+ 
+
+.footer1{
+    width: 100%;
+    height: 80%;
+    background-color: #996BFF;
+    background-image: url(https://www.yubo.live/assets/img/footer-bg.svg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 1px;
+}
+.footer-column{
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+}
+.footer1 h2{
+    font-family: high-light;
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+.footer1 p{
+    font-family: light;
+     font-size: 20px;
+     /* transition: all ease 1s; */
+}
+
+                       /*  problem */
+
+
+.footer1 .column p span{
+    position: relative;
+    cursor: pointer;
+    width: 100%;
+    /* display: inline-block; */
+}
+.footer1 .column p span::after{ 
+    content: "";
+    width: 0%;
+    height: 2px;
+    background-color: #000;
+    border-radius: 5px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%,0);
+  bottom: -3px;
+  transition: all ease 0.2s;
+  /* display: inline-block; */
+}
+.footer1 .column p span:hover::after {
+    width: 100%;
+  }
+
+
+
+                       /*  problem  */
+
+
+.column{
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.footer-column{
+    align-items: start;
+    justify-content: space-between;
+}
+.social-media-icons{
+    width: 92%;
+    height: 20%;
+    justify-content: center;
+    gap: 25px;
+}
+.social-media-icons i{
+    color: aliceblue;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    margin-top: 200px;
+   background-color: #151400;
+}
+
+  /* last-footer */
+
+  .last-footer{
+    width: 100%;
+    height: 10%;
+    background-color: #FFE30A;
+  }
+  .container{
+    width: 90%;
+    height: 100%;
+    margin-inline: 5%;
+  }
+  .flex1{
+    justify-content: space-between;
+  }
+  .last-footer-text{
+           display: flex;
+           gap: 25px;
+  }
+  .last-footer h3{
+    font-family: high-light;
+  }
+  .last-footer h4{
+    font-family: light;
+    font-size: 16px;
+  }
+  
